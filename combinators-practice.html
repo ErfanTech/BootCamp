@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators-Practice</title>
+    <style>
+        html {
+            background: rgb(238, 174, 202);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        }
+
+        ul li {
+            background-color: hsl(300, 70%, 60%);
+            border-radius: 4px;
+
+        }
+
+        /* Child Selector */
+        ul>li {
+            background-color: hsl(0, 0%, 51%);
+            box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 5px;
+            list-style-type: upper-roman;
+            border-radius: 5px;
+            padding: 2px;
+        }
+
+        /* Adjacent Sibling Selector*/
+        ul+li {
+            color: hsl(100, 70%, 40%);
+            font-weight: bold;
+        }
+
+        /* General Sibling Selector*/
+        ul~li {
+            background: hsl(200, 80%, 70%);
+            box-shadow: 0px 5px 5px hsl(20, 60%, 60%);
+            border-radius: 4px;
+            list-style-type: square;
+        }
+
+        h2 {
+
+            background-color: rgb(0, 17, 255);
+            max-width: max-content;
+            position: relative;
+            left: 40%;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: rgba(96, 197, 255, 0.658) 0px 20px 20px 5px;
+            color: white;
+
+        }
+
+        h2:hover {
+            color: blue;
+            background-color: rgb(203, 227, 249);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Combinators CSS</h2>
+    <hr>
+
+    <ul>
+        <li>Child1</li>
+        <ol>
+            <li>Test1</li>
+            <li>Test2</li>
+        </ol>
+        <li>Child2</li>
+        <li>Child3</li>
+        <li>Child4</li>
+
+    </ul>
+
+    <li>Sibling1</li>
+    <li>Sibling2</li>
+</body>
+
+</html>
