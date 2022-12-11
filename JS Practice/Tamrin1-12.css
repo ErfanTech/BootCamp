@@ -1,0 +1,33 @@
+div {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    right: 40%;
+    height: 100px;
+}
+
+.inputSpan {
+    position: absolute;
+    top: 15px;
+    padding: 15px;
+    background-color: rgba(28, 141, 254, 0.777);
+    box-shadow: 0px 20px 10px rgba(168, 212, 255, 0.332);
+    border-radius: 7px;
+}
+
+input,
+button {
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    padding: 4px;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(141, 234, 0);
+}
+
+input:hover {
+    text-align: right;
+}
