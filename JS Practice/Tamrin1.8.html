@@ -1,0 +1,23 @@
+<html>
+<title>Tamrin-8</title>
+<script>
+    var numbersArray = [1, 13, 22, 123, 49]
+    var min = Infinity;
+    var secondMin = Infinity;
+      for (let i = 0; i < 5; i++) {
+        if (numbersArray[i] < min){
+            secondMin=min;
+            min = numbersArray[i];     
+    }else if( numbersArray[i]<secondMin){
+        secondMin=numbersArray[i];
+    }
+}
+    console.log(secondMin);
+</script>
+</head>
+
+<body>
+
+</body>
+
+</html>
